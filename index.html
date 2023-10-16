@@ -6,19 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal portfolio</title>
     <link rel="stylesheet" href="index.css">
-    <script src="../static/rc.js"></script>
+    <script src="index.js"></script>
 </head>
-<body>
-    <nav>
+
+<body onscroll="myFunction()">
+    <nav id="nav">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Education</a></li>
-            <li><a href="#">Certification</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a id="a" href="#home">Home</a></li>
+            <li><a id="aa" href="#skill">Skill</a></li>
+            <li><a id="aaa" href="#education">Education</a></li>
+            <li><a id="aaaa" href="#about">About</a></li>
+            <li><a id="aaaaa" href="#contact">Contact</a></li>
         </ul>
     </nav>
-    <div class="mainbigbox">
+    <div class="mainbigbox"id="home">
         <div class="mainboxunder">
             <div class="rightbox">
                 <div id="wru">
@@ -35,9 +36,9 @@
                     <button id="DownloadCV">Download CV</button>
                 </div>
             </div>
-            <div class="leftbox">
+            <div class="leftbox" id="skill">
                 <div id="imgbox">
-                    <img src="pngwing.com (5).png">
+                    <img src="../static/pngwing.com (5).png">
                 </div>
             </div>
         </div>
@@ -51,7 +52,7 @@
                 <div id="skillboxfive">
 
                     <div id="front">
-                        <img src="pngwing.com (7).png ">
+                        <img src="../static/pngwing.com (7).png ">
                         <h1>JavaScript</h1>
                     </div>
                     <div id="back">
@@ -62,7 +63,7 @@
 
                 <div id="skillboxfive">
                     <div id="front">
-                        <img src="c logo.png ">
+                        <img src="../static/c logo.png ">
                         <h1>C Language</h1>
                     </div>
                     <div id="back">
@@ -73,7 +74,7 @@
 
                 <div id="skillboxfive">
                     <div id="front">
-                        <img src="nodejs1.png ">
+                        <img src="../static/nodejs1.png ">
                         <h1>Node.js</h1>
                     </div>
                     <div id="back">
@@ -83,7 +84,7 @@
                 </div>
                 <div id="skillboxfive">
                     <div id="front">
-                        <img src="css.png ">
+                        <img src="../static/css.png ">
                         <h1>CSS</h1>
                     </div>
                     <div id="back">
@@ -94,7 +95,7 @@
 
                 <div id="skillboxfive">
                     <div id="front">
-                        <img src="html.png ">
+                        <img src="../static/html.png ">
                         <h1>HTML</h1>
                     </div>
                     <div id="back">
@@ -107,16 +108,16 @@
             </div>
         </div>
     </div>
-    <div class="educationsection"></div> 
+    <div id="education" class="educationsection"></div> 
         <div class="educantiondiv">
             <h1 id="collage">* EDUCATION *</h1>
         </div>
         <div class="clgdigmainbox">
         <div id="clgdgrimg">
-            <img src="dgrpng.png">
+            <img src="../static/dgrpng.png">
         </div>
         <div id="clgdgrimg2">
-            <img src="dgrpng.png">
+            <img src="../static/dgrpng.png">
         </div>
     </div>
         <div class="collegenamesec">
@@ -135,8 +136,8 @@
             <h4>Marks:</h4>
         </div>
     </div>
-    <div id="clgdgrimg3">
-        <img src="dgrpng.png">
+    <div id="clgdgrimg3" >
+        <img src="../static/dgrpng.png">
     </div>
         <div class="collagename2">
             <h2>Bsc(CS)</h2>
@@ -146,7 +147,7 @@
             <h4>Marks:</h4>
         </div>
     <!-- </div>  -->
-        <div class="aboutme">
+        <div  class="aboutme" id="about">
          <div class="aboutme_leftbox left_right">
             <div class="about_me_under_box_left h3-margine">
                 <h3>Name</h3>
@@ -183,16 +184,16 @@
          </div>
         </div>
         <div class="contactform">
-            <div class="mtcontact">
+            <!-- <div class="mtcontact">
                 <h1>CONTACT INFO</h1>
-                <div class="gmailimg logo1"><img src="gmil.png"><h3>ajaybhandare0803@gmail.com</h3></div>
-                <div class="phoneimg logo1"><img src="call_log.png"><h3>9834563085</h3></div>
-                <div class="addressimg logo1"><img src="location.png"><h3>jalna-India 431203</h3></div>
-                <div class="instaimg logo1"><img src="insta.png"><h3>instagram id</h3></div>
-            </div>
+                <div class="gmailimg logo1"><img src="../static/gmil.png"><h3>ajaybhandare0803@gmail.com</h3></div>
+                <div class="phoneimg logo1"><img src="../static/call_log.png"><h3>9834563085</h3></div>
+                <div class="addressimg logo1"><img src="../static/location.png"><h3>jalna-India 431203</h3></div>
+                <div class="instaimg logo1"><img src="../static/insta.png"><h3>instagram id</h3></div>
+            </div> -->
         <!-- </div> -->
         <!-- <div class="contactmebox"> -->
-        <div class="contactme">
+        <div class="contactme" id="contact">
             <hr>
             <h1>CONTACT ME</h1>
             <hr>
